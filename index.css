@@ -1,0 +1,222 @@
+/* Color the background of items in the navigation bar and footer with the following colors */
+/* nav.nav a.plan {
+    background-color: #FF764E;
+}
+
+nav.nav a.learn{
+    background-color: #5ED3EB;
+
+}
+
+nav.nav a.involved{
+    background-color: #ffcd69;
+}
+
+nav.nav a {
+    border: 1px solid;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section.header div img {
+    border: 5px black solid;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+
+section.header {
+    border: black solid;
+    margin-top: 80px;
+}
+
+section.header  */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Box Default */
+* {
+    box-sizing: border-box;
+    /* border: 1px black solid; */
+    max-width: 100%;
+}
+
+/* Styles */
+
+html{
+    font-size: 30%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 13rem;
+}
+
+section{
+    padding: 5%, 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+nav{
+    padding: 2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 15px 4px;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.plan{
+    background-color: #FF764E;
+    margin-left: 5%;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.involved{
+    background-color: #FFCD69;
+    margin-right: 10&;
+}
+
+.img {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.header_img{
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+section.header {
+    position: relative;
+}
+
+section.header div{
+    display: inline-block;
+}
+
+.txt{
+    width: 50%;
+    text-align: center;
+    margin-left: 8%;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    margin-top: 2%;
+}
+
+.txt h2, p {
+    font-size: 7rem;
+}
+
+/* main body */
+
+section.main_body{
+    color: white;
+    padding: 3%;
+    line-height: 2;
+}
+
+.main_body div{
+    background-color: #DDB9A3;
+}
+
+.camp div{
+    margin: 0% auto;
+    width: 30%;
+    text-align: center;
+    line-height: 1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.camp div p b{
+    font-weight: bold;
+}
+
+.fire {
+    width: 50%;
+}
+
+.footer_img {
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
